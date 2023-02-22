@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Breanna Dillon",
+        "company": "Jackson Ltd",
+        "email": "lorettabrown@example.net",
+        "phone": "+1-924-116-7963",
+        "skills": [
+            {
+                "skill": "Swift",
+                "rating": 4
+            },
+            {
+                "skill": "OpenCV",
+                "rating": 1
+            }
+        ]
+    },
+    {
+        "name": "Emily May",
+        "company": "Graham Group",
+        "email": "estradadana@example.org",
+        "phone": "947.098.3138x493",
+        "skills": [
+            {
+                "skill": "Julia",
+                "rating": 3
+            },
+            {
+                "skill": "Spectre.css",
+                "rating": 4
+            },
+            {
+                "skill": "Foundation",
+                "rating": 1
+            },
+            {
+                "skill": "Ruby",
+                "rating": 4
+            }
+        ]
+    }
+]
