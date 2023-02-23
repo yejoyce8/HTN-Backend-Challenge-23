@@ -1,4 +1,8 @@
--- Create the users table
+DELETE FROM people;
+DELETE FROM skills;
+DELETE FROM skill_frequencies;
+
+/* -- Create the users table
 CREATE TABLE people (
   id INTEGER PRIMARY KEY,
   name TEXT NOT NULL,
@@ -21,4 +25,4 @@ CREATE TABLE skill_frequencies (
   id INTEGER PRIMARY KEY,
   skill TEXT NOT NULL UNIQUE,
   frequency INTEGER NOT NULL
-);
+); */

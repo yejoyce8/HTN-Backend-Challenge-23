@@ -1,7 +1,3 @@
-# Hack the North 2021 Backend Boilerplate
+# Hack the North 2021 Backend Challenge Solution
 
-This boilerplate contains boilerplate for a REST Express app on Node. The current directory is mounted as a volume under `/src/app` so
-that you do not have to rebuild the image every time (along with `node_modules`). Building and running the image will start the Express server on port
-5000.
-
-Good luck!
+These are the SQLite database tables that have been created in hackers.db:

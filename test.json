@@ -38,5 +38,29 @@
                 "rating": 4
             }
         ]
+    },
+    {
+        "name": "Angela Fisher",
+        "company": "Owen LLC",
+        "email": "ambergomez@example.com",
+        "phone": "017.174.0061",
+        "skills": [
+            {
+                "skill": "Spectre.css",
+                "rating": 3
+            },
+            {
+                "skill": "Julia",
+                "rating": 3
+            },
+            {
+                "skill": "R",
+                "rating": 3
+            },
+            {
+                "skill": "Bulma",
+                "rating": 3
+            }
+        ]
     }
 ]
