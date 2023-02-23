@@ -15,3 +15,6 @@ These are the SQLite database tables that have been created in hackers.db:
 | Skill_Frequencies | id  | INTEGER |
 |        | skill|  TEXT   |
 |        | frequency|  INTEGER   |
+
+**API Endpoints**
+All of the required endpoints in the challenge have been implemented!
