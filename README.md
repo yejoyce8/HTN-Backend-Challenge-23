@@ -19,7 +19,7 @@ These are the SQLite database tables that have been created in hackers.db:
 # **API Endpoints**
 All of the required endpoints in the challenge have been implemented!
 
-## GET ALL USERS
+## Get All Users
 This endpoint returns a list of all user data from the database in a JSON format.
 **Endpoint URL:** `/users`
 **HTTP Method:** `GET`
@@ -34,7 +34,7 @@ This endpoint returns a list of all user data from the database in a JSON format
 }
 ```
 
-## GET USER
+## Get User
 This endpoint returns the user data with specified ID.
 **Endpoint URL:** `/users/:id`
 **HTTP Method:** `GET`
@@ -55,7 +55,7 @@ GET /users/6
 }
 ```
 
-## UPDATE USER DATA
+## Update User Data
 This endpoint update the user data with specified ID and returns the updated data.
 **Endpoint URL:** `/users/:id`
 **HTTP Method:** `PUT`
@@ -89,7 +89,28 @@ PUT /users/5
 }
 ```
 
-## SKILL FREQUENCY FILTERING 
+## Get Skill Frequency
+Retrieves the frequency of a skill with specified ID.
+**Endpoint URL:** `/skills/:id`
+**HTTP Method:** `GET`
+**URL Parameters:** `id` - ID of the user to retrieve.
+
+### Example Request
+```
+GET /skills/10
+```
+
+### Example Response
+```
+[
+	{
+		"id": 10,
+		"skill": "Angular",
+		"frequency": 39
+	}
+]
+```
+## Get Skill Frequency Filtering
 Retrieves a list of skill frequencies that fall within the specified frequency range.
 **Endpoint URL:** `/skills`
 **HTTP Method:** `GET`
@@ -115,27 +136,6 @@ GET /skills/?min_frequency=10&max_frequency=15
 		"id": 95,
 		"skill": "Ada",
 		"frequency": 15
-	}
-]
-```
-## GET SKILL FREQUENCY
-Retrieves the frequency of a skill with specified ID.
-**Endpoint URL:** `/skills/:id`
-**HTTP Method:** `GET`
-**URL Parameters:** `id` - ID of the user to retrieve.
-
-### Example Request
-```
-GET /skills/10
-```
-
-### Example Response
-```
-[
-	{
-		"id": 10,
-		"skill": "Angular",
-		"frequency": 39
 	}
 ]
 ```
